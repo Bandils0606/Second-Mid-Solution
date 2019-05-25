@@ -1,3 +1,3 @@
-# Second-Mid-Solution
+# Python
 
-This is the second mid solutions.
+Programs from basics.
