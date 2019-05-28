@@ -5,6 +5,7 @@ print('You have total 10 chances.\n')
 
 remaining = 10
 count = 1
+
 for i in range (remaining, 0, -1):
     num = int(input('Enter your number:'))
     if num == n:
