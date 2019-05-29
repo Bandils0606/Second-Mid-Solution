@@ -14,7 +14,14 @@ for i in range (remaining, 0, -1):
         break
 
     else:
+        if num < n:
+            print('The number you entered is too low.')
+        elif num > n:
+            print('The number you entered is too high.')
+        
         remaining -= 1
         print('Oops!. The number you has entered isn\'t the jackpot number. Try again.')
         print('Total chances remaining:',remaining); print('\n')
+        if remaining ==0:
+            print('Game over.')
     count += 1
